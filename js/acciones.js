@@ -11,7 +11,7 @@ document.getElementById("volumeDown").addEventListener("click", volumeDown);
 
 var myMedia = null;
 function playAudio() {
-   var src = "/audio/musica.mp3";
+   var src = "audio/musica.mp3";
 
    if(myMedia === null) {
       myMedia = new Media(src, onSuccess, onError);
