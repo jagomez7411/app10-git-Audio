@@ -1,6 +1,6 @@
 //JavaScript
 
-$(document).ready(function(e){
+$(document).ready(function(){
 document.addEventListener("deviceready",function(){
 
 document.getElementById("playAudio").addEventListener("click", playAudio);
