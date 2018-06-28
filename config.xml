@@ -35,7 +35,14 @@
 
 	<plugin name="cordova-plugin-media" spec="~5.0.2" />
 	
-	
+<!--Para accesar a paginas en internet-->
+<allow-intent href="https://*/*"/>
+<acces origin="https://*/*"/>
+<allow-intent href="http://*/*"/>
+<acces origin="http://*/*"/>
+<plugin name="cordova-plugin-whitelist" source="npm"/>
+	 
+<!--Colocar icono app -->	
 <!-- <plugin name="cordova-plugin-geolocation" source="npm" /> --> 
    <!-- Third part plugins -->  
   
