@@ -35,6 +35,7 @@
 
 	<plugin name="cordova-plugin-media" spec="~5.0.2" />
 	
+		
 	
 <!-- <plugin name="cordova-plugin-geolocation" source="npm" /> --> 
    <!-- Third part plugins -->  
